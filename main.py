@@ -50,4 +50,4 @@ def upload_file():
     return render_template('upload.html', file_info=file_info)
 
 if __name__ == "__main__":
-    app.run()
+    app.run(host="0.0.0.0")
