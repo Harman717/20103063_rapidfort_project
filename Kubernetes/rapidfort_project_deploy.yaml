@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: rapidfort_project_deploy
+  labels:
+    app: 20103063_rapidfort_project
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: 20103063_rapidfort_project
+  template:
+    metadata:
+      labels:
+        app: 20103063_rapidfort_project
+    spec:
+      containers:
+      - name: 20103063_rapidfort_project
+        image: harman4u/rapidfort-project:tagname
+        ports:
+        - containerPort: 5000
