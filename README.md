@@ -62,7 +62,7 @@ python main.py
 ```
 You can run the application on localhost:5000 on your browser.
 
-## Guthub actions for docker containerization
+## Github actions for docker containerization
 
 ### 1. Docker Setup
 Install Docker Desktop or Docker Engine for containers.
