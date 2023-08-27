@@ -22,6 +22,6 @@ jobs:
       uses: docker/build-push-action@v4
       with:
        push: true
-       tags: user/app:tagname
+       tags: harman4u/rapidfort-project:tagname
 
        
