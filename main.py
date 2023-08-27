@@ -4,7 +4,8 @@ from flask import Flask, flash, request, redirect, render_template
 from werkzeug.utils import secure_filename
 
 ALLOWED_EXTENSIONS = set(['txt', 'pdf', 'png', 'jpg', 'jpeg', 'gif'])
-UPLOAD_FOLDER = 'C:\\Users\\simar\\Downloads\\20103063_rapidfort_project'
+UPLOAD_FOLDER = os.path.join(os.path.expanduser('~'), 'Downloads', '20103063_rapidfort_project')
+
 
 app = Flask(__name__)
 app.secret_key = "secret key"
