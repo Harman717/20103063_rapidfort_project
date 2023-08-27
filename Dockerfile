@@ -11,6 +11,8 @@ COPY requirements.txt /20103063_rapidfort_project
 # Install Python dependencies
 RUN pip install --no-cache-dir -r requirements.txt
 
+COPY ./uploads /app/uploads
+
 # Copy the rest of your app's code into the container
 COPY . /20103063_rapidfort_project
 
