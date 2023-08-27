@@ -4,7 +4,7 @@ from flask import Flask, flash, request, redirect, render_template
 from werkzeug.utils import secure_filename
 
 ALLOWED_EXTENSIONS = set(['txt', 'pdf', 'png', 'jpg', 'jpeg', 'gif'])
-UPLOAD_FOLDER = '/app/uploads'
+UPLOAD_FOLDER = '/20103063_rapidfort_project/uploads'
 
 
 app = Flask(__name__)
