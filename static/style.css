@@ -1,17 +1,22 @@
 /* Reset some default margins and padding */
 body, h2, p, ul {
-    margin: 0;
-    padding: 0;
+    margin: 10px;
+    padding: 10px;
 }
 /* Set some basic styles for the body */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f5f5f5;
+    background-color: grey;
     padding: 20px;
 }
-
+h1{
+    font-size: 35px;
+    margin-top: 20px;
+    color: wheat;
+}
 /* Center the content on the page */
 .container {
+    align-items: center;
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
@@ -45,4 +50,28 @@ form {
     border: 1px solid #e0e0e0;
     background-color: #f9f9f9;
     border-radius: 5px;
+}
+.container{
+    color: wheat;
+    padding: 10px;
+
+    display: inline-block;
+    border-radius: 10px;
+    margin: 10px;
+    align-self: start;
+    font-size: 20px;
+    margin-top: 20px;
+
+}
+.data{
+    color: wheat;
+    padding: 10px;
+
+    display: inline-block;
+    border-radius: 10px;
+    margin: 10px;
+    align-self: start;
+    font-size: 20px;
+    margin-top: 20px;
+
 }
