@@ -98,10 +98,11 @@ kubectl port-forward deployment/rapiddeployment -n [yourchoice] 5000:5000
 
 ```
 # SNIPPETS
+<img width="1200" alt="image" src="https://github.com/Harman717/20103063_rapidfort_project/assets/76901738/1d3044b3-7c00-4ae5-9aa8-82459e75cb14">
 
-<img width="359" alt="image" src="https://github.com/Harman717/20103063_rapidfort_project/assets/76901738/6131a89a-665a-400f-b780-3661daa86131">
 
-<img width="1150" alt="image" src="https://github.com/Harman717/20103063_rapidfort_project/assets/76901738/678fd45b-2ec6-43a7-962e-3d56dbca6eb2">
+<img width="1200" alt="image" src="https://github.com/Harman717/20103063_rapidfort_project/assets/76901738/5f3fee59-719c-4331-85bc-f6dc096d2035">
+
 
 
 
